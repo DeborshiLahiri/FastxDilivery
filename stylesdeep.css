@@ -1,0 +1,119 @@
+            #kul{
+                font-style: italic;
+                color: rgb(219, 21, 21);
+                font-size: 50px;
+                border-style: dotted;
+                border-color: rgb(236, 240, 8);
+                box-shadow: 0px 10px 10px darkmagenta;
+                border-radius: 10px;
+            }
+        #vul{ 
+            height: 200px;
+            width: 200px;    
+                background-image:linear-gradient(45deg,red,green,blue); /*can also be done with entire background, just write body insted of vul*/
+            }
+            .ngl 
+            {
+                height: 300px;
+                width: 200px;    
+                background-color: cornflowerblue; 
+                animation: anime 5s infinite alternate ; /*or we can use background-name, background-duration, animation-iteration-count and animation-direction*/
+                position:relative;
+            }
+                      
+                      @keyframes anime {
+                          0%{background-color: rgb(0, 255, 0); transform:translate(100px,100px); }   /*we can use from and to instead of %*/
+                          25%{background-color: beige;  transform:translate(200px,200px);} /*we can also use top with colour for only up and down animation*/
+                          50%{background-color: rgb(253, 155, 7); transform:translate(300px,300px);}
+                          75%{background-color: rgb(241, 36, 149); transform:translate(400px,400px);}
+                          100%{background-color: darkolivegreen;  transform:translate(500px,500px);}
+                          
+
+                    }
+            .pain1
+            {
+                grid-area: the;
+            }    
+            .pain2
+            {
+                grid-area: World;
+            }
+            #pain3
+            {
+                grid-area: shall;
+            }
+            .Pain4
+            {
+                grid-area: Know;
+            }
+            .pain5
+            {
+                grid-area: Pain;
+            }
+            .nagato
+            {
+                display: grid;
+                grid-template-areas:
+                "the the the the the the"
+                "World World World shall shall shall"
+                "Know Know Pain Pain Pain Pain";
+                grid-gap: 20px;
+                padding: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                 margin: 30px;
+                 background-color: black;
+                border:outset rgb(235, 67, 103) 10px;
+                            }
+            .nagato>div
+            {
+                text-align: center;
+                color: rgb(255, 196, 2);
+                font-size:35px;
+                padding: 25px;
+                border:solid forestgreen 5px;
+                box-shadow: 0px 10px 10px white;
+                background-color: teal;
+            }
+            #dragon
+            {
+                display: flex;
+                flex-wrap: wrap; /*we can also have nowrap insted of wrap then there will be no auto-adjusting of text space when we resize the window*/
+                background-color: aqua;
+                border: dashed darkred 5px;
+                box-shadow: 10px 10px 50px 30px darkblue;
+            }
+            #dragon > div
+            {
+                width: 110px;
+                height: 40px;
+                font-size: 30px;
+                padding: auto;
+                text-align: center;
+                margin: 10px;
+                border: dotted black 5px;
+                background-color: burlywood; 
+            }
+            .col-sm-4{
+        border: double 10px darksalmon;
+        font-style: oblique;
+        background-color: beige;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        text-align: center;
+    }
+    h2/*tag selector that is it styles all tages with the same tag name*/
+    {
+        background-color: darkslategrey;
+
+    }
+    kkk
+    {
+        color: goldenrod;
+        border: double;
+        font-size: 50px;
+        border-radius: 100px;
+        border-bottom-color: indigo;
+        border-top-color: darkgreen;
+        border-width: 10px;
+        
+    }
